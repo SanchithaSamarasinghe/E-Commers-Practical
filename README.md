@@ -1,3 +1,4 @@
+DAY 1:
 Java Practice Tasks
 1) Print a Message
 Write a program to print a simple message.
@@ -31,3 +32,18 @@ Implement these book types using inheritance, polymorphism, and encapsulation.
 8) Implement Classes for a Retail Store
 The store should allow storing, editing, and deleting multiple products like fruits, vegetables, groceries, etc.
 Implement a method to display available products including name, price, and quantity.
+
+
+Day2 :
+This is a simple Spring Boot application that provides REST API endpoints to return basic text messages.
+
+🌐 API Endpoints
+Endpoint	Method	Description
+/app/msg1	GET	Returns "Hello World!"
+/app/msg2	GET	Returns "Learn SpringBoot!"
+/app/msg3	GET	Returns "Welcome!"
+
+🔧 Usage
+Run the application and test the endpoints using a web browser:
+
+http://localhost:8080/app/msg1
